@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Iot Button Configuration</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu">
+        <ul id="menu">
+			<li><a href="iothub.html">IoT Hub Configuration</a></li>
+            <li><a href="timeserver.html">Timeserver</a></li>
+			<li><a href="wifi.html">WIFI</a></li>
+            <li><a href="ipconfig.html">IP Configuration</a></li>
+			<li><a href="userjson.html">User JSON</a></li>
+			<li><a href="shutdown.html">Shutdown</a></li>
+		</ul>
+		<br><br><br>
+	<fieldset>
+		<legend>Iot Button Configuration</legend>
+		<form action="index.html" method="POST">
+			<label>Azure IoT Hub:<input type="text" name="iothub" value="{}"><br><br></label>
+			<label>IoT device name:<input type="text" name="iotdevicename" value="{}"><br><br></label>
+			<label>IoT device secret:<input type="password" name="iotdevicesecret" value="{}"><br><br><br></label>
+			<button type="submit">Save</button>
+		</form>
+    </fieldset>
+</body>
+</html>

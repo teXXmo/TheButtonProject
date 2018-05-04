@@ -1,0 +1,1 @@
+this folder contains all files which are necessary for the WEB site

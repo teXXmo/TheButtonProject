@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Iot Button Configuration</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" id="show-menu">
+        <ul id="menu">
+			<li><a href="iothub.html">IoT Hub Configuration</a></li>
+            <li><a href="timeserver.html">Timeserver</a></li>
+			<li><a href="wifi.html">WIFI</a></li>
+            <li><a href="ipconfig.html">IP Configuration</a></li>
+			<li><a href="userjson.html">User JSON</a></li>
+			<li><a href="shutdown.html">Shutdown</a></li>
+		</ul>
+		<br><br><br>
+    <fieldset>
+      <legend>IP Configuration</legend>
+		<form action="index.html" method="POST">
+			<label>Usedhcp:<input type="text" name="usedhcp" value="{}"><br><br></label>
+			<label>IP:<input type="text" name="ip" value="{}"><br><br></label>
+			<label>Netmask:<input type="text" name="netmask" value="{}"><br><br></label>
+			<label>Gateway:<input type="text" name="gateway" value="{}"><br><br></label>
+			<label>DNSserver:<input type="text" name="dnsserver" value="{}"><br><br><br></label>
+			<center><button type="submit">Save</button></center>
+		</form>
+    </fieldset>
+</body>
+</html>

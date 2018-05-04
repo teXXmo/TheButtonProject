@@ -1,0 +1,18 @@
+ul {list-style-type:none;padding:0;position:static;}
+li {display:inline-block;float:left;margin-bottom:1px;}
+li a {display:block;min-width:180px;height:50px;text-align:center;line-height:50px;font-family:"Arial",sans-serif;color:#fff;background:#646464;text-decoration:none;font-size:16px;}
+li:hover a {background:#EF7F30;color:#fff;}
+li:hover ul a {background:#f3f3f3;color:#646464;}
+li:hover ul a:hover {background:#646464;color:#fff;}
+li ul {display:none;}
+li ul li {display:block;float:none;}
+li ul li a {width:auto;padding:0 220px;}
+ul li a:hover + .hidden, .hidden:hover {display:block;}
+.show-menu {font-family:"Arial",sans-serif;text-decoration:none;color:#fff;background:#848484;text-align:center;padding:10px 0;display:none;}
+input[type=checkbox]{display:none;}
+input[type=checkbox]:checked ~ #menu{display:block;}
+@media screen and (max-width:1098px){ul {position:static;display:none;}li {margin-bottom:1px;}ul li, li a {width:100%;}.show-menu {display:block;}}
+fieldset {font-family:"Arial",sans-serif;width:auto;min-height:150px;max-width:1045px;border:5px solid #EF7F30;}
+button {background-color:#646464;color:#fff;font-family:"Arial",sans-serif;font-size:16px;text-decoration:none;border:none;width:30%;height:50px;display:block;margin-left:auto;margin-right:auto;}
+button:hover {border:none;background:#EF7F30;color:#fff;}
+input{font-family:"Arial",sans-serif;width:99%;}
