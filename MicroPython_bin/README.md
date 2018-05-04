@@ -8,6 +8,13 @@ this folder contains micropython.bin with frozen bytecode patch.
 7. file
 
 
+Info about MicroPython:
+https://micropython.org/
+
+MicroPython is running under MIT license, too.
+https://github.com/micropython/micropython/blob/master/LICENSE 
+
+
 -----------------------------------
 Any questions? - Get in touch: info@iot-button.eu
 
